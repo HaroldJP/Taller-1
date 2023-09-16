@@ -25,6 +25,17 @@ elif c <= b <= a:
 ```
 
 
+El punto número 3 que consistía en realizar un programa que sirviera para insertar un número real y determinar si es par o impar o hice de la siguiente forma:
+
+```python
+a : float
+a = float(input('Inserte un número real:'))
+if a%2==0:
+  print('El número ' +str(a)+ ' es un número par.')
+else:
+  print('El número ' +str(a)+ ' es un número impar.')
+```
+
 El punto número 4 que consistía en desarrollar un programa que sirviera para insertar 2 números reales cualesquiera y determinar si el primero es múltiplo del segundo lo hice de la siguiente forma:
 
 ```python
@@ -36,6 +47,26 @@ if a%b==0:
     print('El número ' +str(a)+ ' es múltiplo de ' +str(b))
 else:
     print('El número ' +str(a)+ ' no es múltiplo de ' +str(b))
+```
+
+
+El punto número 5 que consistía en hacer un programa que sirva para insertar tres números reales y determinar si la suma del primer número es mayor, menor o igual al tercer número lo hice de la siguiente forma:
+
+```python
+a : float
+b : float 
+c : float
+d : float 
+a = float(input('Escriba el primer número real:'))
+b = float(input('Escriba el segundo número real:'))
+c = float(input('Escriba el tercer número real:'))
+d = a+b
+if d > c:
+  print('La suma de los números ' +str(a)+ ' y ' +str(b)+ ' es igual a ' +str(d)+ ', y por lo tanto, es mayor que ' +str(c) )
+elif d < c:
+    print('La suma de los números ' +str(a)+ ' y ' +str(b)+ ' es igual a ' +str(d)+ ', y por lo tanto, es menor que ' +str(c) )
+elif d==c:
+  print('La suma de los números ' +str(a)+ ' y ' +str(b)+ ' es igual a ' +str(d)+ ', y por lo tanto, es igual que ' +str(c) )
 ```
 
 
@@ -67,6 +98,88 @@ match lang:
     case _:
         print('La letra ' +str(lang)+ ' es una consonante')
 ````
+
+
+El punto número 7 aún está en proceso pipipipi
+
+
+
+El punto número 8 también está en proceso pipipipi
+
+
+
+El punto número 9 que consistía en crear un programa que sirviera para insertar un país del continente americano y que dijera cuál es su capital se hizo de la siguiente forma:
+
+```python
+lang = input('Escriba en minúsculas y sin tildes un país de américa:')
+match lang:
+    case 'colombia':
+        print('La capital de ' +str(lang)+ ' es Bogotá')
+    case 'ecuador':
+        print('La capital de ' +str(lang)+ ' es Quito')
+    case 'venezuela':
+        print('La capital de ' +str(lang)+ ' es Caracas')
+    case ' peru':
+        print('La capital de ' +str(lang)+ ' es Lima')
+    case 'brasil':
+        print('La capital de ' +str(lang)+ ' es Brasilia')
+    case 'bolivia':
+        print('La capital de ' +str(lang)+ 'es La Paz')
+    case 'uruguay':
+        print('La capital de'  +str(lang)+ ' es Montevideo') 
+    case 'paraguay':
+        print('La capital de ' +str(lang)+ ' es Asunción')
+    case 'argentina':
+        print('La capital de ' +str(lang)+ ' es Buenos Aires')
+    case 'chile':
+        print('La capital de ' +str(lang)+ ' es Santiago de Chile')
+    case 'estados unidos':
+        print('La capital de ' +str(lang)+ ' es Washington')
+    case 'canada':
+        print('La capital de ' +str(lang)+ ' es Ottawa')
+    case 'mexico':
+        print('La capital de ' +str(lang)+ ' es Ciudad de México')
+    case 'costa rica':
+        print('La capital de ' +str(lang)+ ' es San José')
+    case 'republica dominicana':
+        print('La capital de ' +str(lang)+ ' es Santo Domingo')
+    case 'cuba':
+        print('La capital de ' +str(lang)+ ' es La Habana')
+    case 'puerto rico':
+        print('La capital de '  +str(lang)+ ' es San Juan')
+    case 'el salvador':
+        print('La capital de ' +str(lang)+ ' es San Salvador')
+    case 'jamaica':
+        print('La capital de ' +str(lang)+ ' es Kingston')
+    case 'panama':
+        print('La capital de ' +str(lang)+ ' es Panamá')
+    case 'bahamas':
+        print('La capital de ' +str(lang)+ ' es Nasáu')
+    case 'haiti':
+        print('La capital de ' +str(lang)+ ' es Puerto Príncipe')
+    case 'guatemala':
+        print('La capital de ' +str(lang)+ ' es Ciudad de Guatemala')
+    case 'aruba':
+        print('La capital de ' +str(lang)+ ' es Oranjestad')
+    case 'curazao':
+        print('La capital de ' +str(lang)+ ' es Willemstad')
+    case 'honduras':
+        print('La capital de ' +str(lang)+ ' es Tegucigalpa') 
+    case 'belice':
+        print('La capital de ' +str(lang)+ ' es Belmopán')
+    case 'nicaragua':
+        print('La capital de ' +str(lang)+ ' es Managua')
+    case 'guyana':
+        print('La capital de ' +str(lang)+ ' es Georgetown')
+    case 'barbados':
+        print('La capital de ' +str(lang)+ ' es Bridgetown')
+    case 'surinam':
+        print('La capital de ' +str(lang)+ ' es Paramaribo')
+    case 'guayana francesa':
+        print('La capital de ' +str(lang)+  ' es Cayena')
+    case _:
+        print('País no identificado')
+```
 
 
 El punto número 10 que consistía en crear un programa que sirva para insertar una distancia y que determine cuánto tardaría la luz, el sonido, el auto comercial más vendido y Usain Bolt en recorrer dicha distancia se desarrolló teniendo en cuenta que la distancia se debe insertar en kilómetros y que en este caso el vehículo comercial más rápido es el SS Tuatara.
