@@ -1,5 +1,7 @@
 ## Taller-1
-En este repositorio vamos a inciar con los programas individuales que correspondían a los puntos pares del taller.
+El punto número 1 que consistía en subir un pantallazo del Quiz de pyhton.
+
+
 
 El punto número 2 que consistía en desarrollar un programa que sirviera para insertar 3 números reales cualesquiera y determinar cuál es el número mayor lo hice de la siguiente forma:
 
