@@ -1,7 +1,7 @@
 ## Taller-1
 El punto número 1 que consistía en subir un pantallazo del Quiz de pyhton.
 
-
+![](https://i.ibb.co/kyKrDG7/quiz-python.png)
 
 El punto número 2 que consistía en desarrollar un programa que sirviera para insertar 3 números reales cualesquiera y determinar cuál es el número mayor lo hice de la siguiente forma:
 
