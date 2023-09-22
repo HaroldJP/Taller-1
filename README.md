@@ -1,6 +1,6 @@
 ## Taller-1
 
-En este repositorio están todos y cada uno de lo puntos del taller, tanto pares como impares, y en el link que se adjunta a continuación, están los puntos impares únicamente en un cuaderno de Google Colab.
+En este repositorio están todos y cada uno de lo puntos del taller, tanto pares como impares, y en el link que se adjunta a continuación, están únicamente los puntos impares en un cuaderno de Google Colab.
 
 https://colab.research.google.com/drive/1tvUMsX_TrpCWH1Er5vJUSSPx8oA9szJ4?hl=es#scrollTo=jaC5sVvSczyW
 
