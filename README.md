@@ -875,9 +875,24 @@ elif e <= d <= c <= b <= a:
     print('La raíz cúbica del menor número es ' +str(e)+'^(1/3) = ', e**(1/3))
 ##PROFE SI ESTÁ VIENDO ESTO YO VERÉ UNA BUENA NOTA QUE CASI NO ACABO CON ESTE CÓDIGO
 ```
-El punto número 8 también está en proceso pipipipi
+El punto número 8 que consistía en crear un programa que sirva para ingresar una frecuencia en Hz, y que este arrojara como salida en qué parte del espectro electromagnético se encuentra la onda se desarrolló así:
 
-
+```python
+n : float
+n = float(input("Ingrese en Hz la frecuencia de una onda:"))
+if 10**4 <= n < 10**8:
+    print('Una onda cuya frecunecia es ' +str(n)+ ' Hz, es una onda como la de un radio, su longitud aproximada puede ser desde los 1000 metros hasta los 2 metros')
+elif 10**8 <= n < 10**12:
+    print('Una onda cuya freceuncia es ' +str(n)+ ' Hz, es una onda como la de un microondas, su longitud aproximada puede ser desde la estatura de un humano de 2m hasta el tamaño de una mariposa de 1 cm')
+elif 10**12 <= n < 10**15:
+    print('Una onda cuya frecuencia es ' +str(n)+ ' Hz, puede ser una onda infrarroja, su longitud aproximada puede ser desde el tamaño de la punta de una aguja de 0,01cm, hasta el tamaño de un protozoo de 0,5μm')
+elif 10**15 <= n < 10**16:
+    print('Una onda cuya frecuencia es ' +str(n)+ 'Hz, puede ser una onda ultravioleta, su longitud aproximada puede ser desde el tamaño de un protozoo de 0,5μm, hasta el tamaño de una partícula de 0,01μm')
+elif 10**16 <= n < 10**18:
+    print('Una onda cuya frecuencia es ' +str(n)+ ' Hz, puede ser una onda ultravioleta o Rayos X, su longitud aproximada puede ser desde el tamaño de una parícula de 0,01μm, hasta el tamaño de un átomo de 0,1nm')
+elif 10**18 <= n < 10**20:
+    print('Una onda cuya frecuencia es ' +str(n)+ 'Hz, puede ser una onda de Rayos X o Rayos Gamma, su longitud aproximada puede ser desde el tamaño de un átomo de 0,1nm, hasta el tamaño de un núcleo atómico de 0,001nm')
+```
 
 El punto número 9 que consistía en crear un programa que sirviera para insertar un país del continente americano y que dijera cuál es su capital se hizo de la siguiente forma:
 
@@ -977,6 +992,8 @@ print('El auto comercial más rápido SS Tuatara tardará ' +str(h)+ ' horas en 
 i = a/e
 print('Usain Bolt tardará ' +str(i)+ ' horas en recorrer ' +str(a)+ ' kilómetros')
 ```
+
+Muchísimas gracias.
 
 
 
