@@ -4,9 +4,13 @@ En este repositorio están todos y cada uno de lo puntos del taller, tanto pares
 
 https://colab.research.google.com/drive/1tvUMsX_TrpCWH1Er5vJUSSPx8oA9szJ4?hl=es#scrollTo=jaC5sVvSczyW
 
+### Punto 1
+
 El punto número 1 que consistía en subir un pantallazo del Quiz de pyhton.
 
 ![](https://i.ibb.co/kyKrDG7/quiz-python.png)
+
+### Punto 2
 
 El punto número 2 que consistía en desarrollar un programa que sirviera para insertar 3 números reales cualesquiera y determinar cuál es el número mayor lo hice de la siguiente forma:
 
@@ -30,7 +34,13 @@ elif c <= a <= b:
 elif c <= b <= a:
     print('El número mayor es ' +str(a))
 ```
+* Explicación:
 
+Se declaran 3 variables que son los números que va a ingresar el usuario.
+
+Se utiliza el comando "if" y "elif" para las diferentes situaciones que se pueden dar, que en este caso son 6 posibles casos que se pueden dar entre los 3 números.
+
+### Punto 3
 
 El punto número 3 que consistía en realizar un programa que sirviera para insertar un número real y determinar si es par o impar o hice de la siguiente forma:
 
@@ -43,9 +53,20 @@ else:
   print('El número ' +str(a)+ ' es un número impar.')
 ```
 
+* Explicación:
+
+Se declara una única variale wue es la que va a ingresar el usuario.
+Se utiliza el comando "if" y "else" para los únicos dos casos que se pueden presentar.
+
+El primer caso es cuando el cociente de la división de la variable entre 2 es igual a cero, que quiere decir que el número de puede dividir entre 2 y arrojará un número entero, y por ende el número es par. Para esto se utiliza la operación "a%2".
+
+El segundo caso es muy similar, solo que si el cociente de la division es distinto de cero, quiere decir que el número ingresado no arroja un entero cuando se divide entre dos, y por ende es un número impar.
+
 Ya que mi cédula termina en 3, el correspondiente diagrama de flujo para este punto se hizo así:
 
 [![](https://mermaid.ink/img/pako:eNplkMFKAzEQhl9lGBBaaEE8LlTRbrftoT1Yb5k9hE3WBjaTkiaoLHvvy_gCXvsmPokx683bfP_3MzDTY-OUxgLbzr01R-kDvJTEj5Mtm8a4Kczn9_Ak9tcvq70D_r5cnuscLsU7LIBv7mriZU7K_je5fRgyrcTh-plcmakSe1cD8SrTWjDoM0QG_lt8kj51q2w3_6yxo19nv51UhqfEm5FwhqlkpVHpjJ4YgDActdWERRqVbmXsAiHxkKoyBnf44AaL4KOeYTwpGXRp5KuXFotWdueUamWC87vxNflDww_bwGDM?type=png)](https://mermaid.live/edit#pako:eNplkMFKAzEQhl9lGBBaaEE8LlTRbrftoT1Yb5k9hE3WBjaTkiaoLHvvy_gCXvsmPokx683bfP_3MzDTY-OUxgLbzr01R-kDvJTEj5Mtm8a4Kczn9_Ak9tcvq70D_r5cnuscLsU7LIBv7mriZU7K_je5fRgyrcTh-plcmakSe1cD8SrTWjDoM0QG_lt8kj51q2w3_6yxo19nv51UhqfEm5FwhqlkpVHpjJ4YgDActdWERRqVbmXsAiHxkKoyBnf44AaL4KOeYTwpGXRp5KuXFotWdueUamWC87vxNflDww_bwGDM)
+
+### Punto 4
 
 El punto número 4 que consistía en desarrollar un programa que sirviera para insertar 2 números reales cualesquiera y determinar si el primero es múltiplo del segundo lo hice de la siguiente forma:
 
@@ -60,8 +81,17 @@ else:
     print('El número ' +str(a)+ ' no es múltiplo de ' +str(b))
 ```
 
+* Explicación:
 
-El punto número 5 que consistía en hacer un programa que sirva para insertar tres números reales y determinar si la suma del primer número es mayor, menor o igual al tercer número lo hice de la siguiente forma:
+De manera muy similar a como se dió en el punto anterior, vamos a declarar dos variables que son los números que va a ingresar el usuario y utilizar el comando "if" y "else" para los dos casos que se pueden presentar.
+
+El primer caso, consiste en utilizar la operación "a%b" para dividir el primer número ingresado entre el segundo número y evaluar el cociente de dicha división. Si el cociente el igual a cero, entonces el primer número ingresado es múltiplo del segundo número.
+
+El segundo caso es exactamente lo mismo, sólo que ahora ocurre cuando el cociente de la división es diferente de cero, lo cual significa que el primer número no es múltiplo del segundo número.
+
+### Punto 5
+
+El punto número 5 que consistía en hacer un programa que sirva para insertar tres números reales y determinar si la suma del primer número con el segundo número es mayor, menor o igual al tercer número lo hice de la siguiente forma:
 
 ```python
 a : float
@@ -80,6 +110,19 @@ elif d==c:
   print('La suma de los números ' +str(a)+ ' y ' +str(b)+ ' es igual a ' +str(d)+ ', y por lo tanto, es igual que ' +str(c) )
 ```
 
+* Explicación:
+
+Se declaran 4 variables, que son los tres números que ingresa el usuario y la suma de los dos primeros números.
+
+Empleando el comando "if" y "elif" se evalúan cada uno de los casos que se pueden presentar, en este caso son 3.
+
+En el primer caso, usando la operación "d > c" se imprime un mensaje que dice que la suma de los dos primeros números es mayor que el tercer número ingresado.
+
+En el segundo caso, usando la operación "d < c" se imprime un mensaje que dice que la suma de los dos primeros números es menor que el tercer número.
+
+Por último, usando la operación " d == c" se imprime un mensaje cuando la suma de los dos primeros números es exactamente igual al tercer número.
+
+### Punto 6
 
 El punto número 6 que consistía en desarrollar un programa que sirva para insertar una letra cualquiera y determinar si es un vocal o una consonante lo hice de la siguiente forma:
 
