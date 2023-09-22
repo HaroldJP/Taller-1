@@ -1,4 +1,9 @@
 ## Taller-1
+
+En este repositorio están todos y cada uno de lo puntos del taller, tanto pares como impares, y en el link que se adjunta a continuación, están los puntos impares únicamente en un cuaderno de Google Colab.
+
+https://colab.research.google.com/drive/1tvUMsX_TrpCWH1Er5vJUSSPx8oA9szJ4?hl=es#scrollTo=jaC5sVvSczyW
+
 El punto número 1 que consistía en subir un pantallazo del Quiz de pyhton.
 
 ![](https://i.ibb.co/kyKrDG7/quiz-python.png)
