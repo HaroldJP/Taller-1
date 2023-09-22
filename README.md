@@ -38,6 +38,10 @@ else:
   print('El número ' +str(a)+ ' es un número impar.')
 ```
 
+Ya que mi cédula termina en 3, el correspondiente diagrama de flujo para este punto se hizo así:
+
+[![](https://mermaid.ink/img/pako:eNplkMFKAzEQhl9lGBBaaEE8LlTRbrftoT1Yb5k9hE3WBjaTkiaoLHvvy_gCXvsmPokx683bfP_3MzDTY-OUxgLbzr01R-kDvJTEj5Mtm8a4Kczn9_Ak9tcvq70D_r5cnuscLsU7LIBv7mriZU7K_je5fRgyrcTh-plcmakSe1cD8SrTWjDoM0QG_lt8kj51q2w3_6yxo19nv51UhqfEm5FwhqlkpVHpjJ4YgDActdWERRqVbmXsAiHxkKoyBnf44AaL4KOeYTwpGXRp5KuXFotWdueUamWC87vxNflDww_bwGDM?type=png)](https://mermaid.live/edit#pako:eNplkMFKAzEQhl9lGBBaaEE8LlTRbrftoT1Yb5k9hE3WBjaTkiaoLHvvy_gCXvsmPokx683bfP_3MzDTY-OUxgLbzr01R-kDvJTEj5Mtm8a4Kczn9_Ak9tcvq70D_r5cnuscLsU7LIBv7mriZU7K_je5fRgyrcTh-plcmakSe1cD8SrTWjDoM0QG_lt8kj51q2w3_6yxo19nv51UhqfEm5FwhqlkpVHpjJ4YgDActdWERRqVbmXsAiHxkKoyBnf44AaL4KOeYTwpGXRp5KuXFotWdueUamWC87vxNflDww_bwGDM)
+
 El punto número 4 que consistía en desarrollar un programa que sirviera para insertar 2 números reales cualesquiera y determinar si el primero es múltiplo del segundo lo hice de la siguiente forma:
 
 ```python
